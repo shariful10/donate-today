@@ -31,8 +31,9 @@
     padding: 16px 20px;
     background: #FF5959;
     font-family: 'Inter', sans-serif;
-    margin-left: 375px;
-
+}
+.btn{
+    padding: 10px 375px 10px;
 }
 
 h1 {
@@ -63,7 +64,7 @@ h1 {
     display: flex;
     gap: 22px;
     align-items: center;
-    padding: 55px 460px;
+    padding: 50px 320px 100px;
 }
 
 .amount-details {
@@ -98,4 +99,48 @@ h1 {
 
 .amount-description .section-description {
     color: #B3B3B3;
+}
+hr{
+    width: 60%;
+    margin-left: 310px;
+}
+
+/* Donate Plan Section Style */
+
+.donate-plan .section-description {
+    color: #B3B3B3;
+}
+.donate-container{
+    display: flex;
+    gap: 24px;
+    padding: 50px 157px 100px;
+}
+.donate-details{
+    border-radius: 5px;
+    padding: 30px;
+}
+#donate-details1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#donate-details2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#donate-details3{
+    background-color: rgb(255, 244, 214);
+}
+.donate-title{
+    font-weight: 600;
+font-size: 24px;
+color: #121212;
+font-family: 'Poppins', sans-serif;
+padding-top: 32px;
+padding-bottom: 16px;
+}
+.donate-description{
+    font-weight: 400;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+}
+.fa-solid, .fas {
+    font-size: 50px;
 }
