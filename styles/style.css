@@ -208,6 +208,7 @@ input[type="email"] {
     font-weight: 500;
     color: #AA9F9F;
     margin-right: -4px;
+    padding-left: 10px;
     background-color: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
 }
@@ -220,4 +221,24 @@ button.email-btn {
     color: #FFFFFF;
     background-color: #FF5959;
     border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer Section Style */
+
+footer {
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 30px;
+    background-color: #0B0D17;
+}
+
+.footer-title{
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-descroption{
+    color: #D9DBE1;
 }
